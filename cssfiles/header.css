@@ -1,0 +1,145 @@
+
+.header
+{
+  height: 55px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style:solid ;
+  border-bottom-color:rgb(204, 204, 204) ;
+  
+
+}
+.left
+{
+  flex:1;
+  justify-content:start;
+ display: flex;
+ align-items: center;
+
+ 
+}
+.harmburger
+{
+  height: 24px;
+  
+  margin-left: 20px;
+  
+}
+.youtubeicon
+{
+  height: 25px;
+  margin-left: 10px;
+
+}
+.middle
+{
+ 
+flex:2;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+
+  
+}
+.searchbar
+{
+  height:36px;
+  flex: 1;
+  margin: 0;
+  display :flex;
+  flex:1;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-width: 1px;
+  padding-left:10px;
+  font-size:17px ;
+  
+  
+
+}
+
+
+.searchbar::placeholder
+{
+  font-size:17px;
+  color: rgb(149, 141, 141);
+}
+.searchbutton
+{
+  height:40px;
+  width: 60px;
+  margin-left:-1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-width: 1px;
+  border-radius: 2px;
+
+
+}
+.searchicon
+{
+  height: 25px;
+}
+.voicebutton
+{
+  height: 35px;
+  width: 35px;
+  margin: 0;
+  border:0;
+  border-radius: 35px;
+  margin-left: 5px;
+}
+.right
+{
+   flex: 1;
+  
+ display: flex;
+ align-items: center;
+
+ justify-content:end;
+ 
+}
+.loginpic
+{
+  height: 30px;
+  margin-right: 20px;
+
+}
+.appsicon,
+.uploadicon
+{
+  
+ height: 25px;
+ padding-right: 20px;
+  
+}
+.bellicon
+
+{
+  height: 25px;
+  margin-right: 20px;
+}
+.bellicondiv
+{
+  position: relative;
+}
+.bellnotification
+{
+  position: absolute;
+  font-size: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  top:0;
+  right:20px;
+}
